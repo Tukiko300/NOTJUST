@@ -1,6 +1,5 @@
 function handler(m) {
-  this.sendContact(m.chat, '50257681618', '𝐉𝐡𝐮𝐬𝐳ᙆ  ᷦ×͜×', m)
-  this.sendContact(m.chat, '50230118401', '𝙉𝙤𝙩𝙅𝙝𝙪𝙯ᙆ  ᷦ×͜×', m)
+  this.sendContact(m.chat, '595985168557', 'KAIO', m)
   }
 handler.help = ['contacto']
 handler.tags = ['info']
