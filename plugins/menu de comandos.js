@@ -27,14 +27,14 @@ let menu =`
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 
 ╔════════════════╗
-✅𝐌𝐞𝐧𝐮 𝐝𝐞𝐥 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨
-✅𝐌𝐞𝐧𝐮 𝐝𝐞 𝐆𝐫𝐮𝐩𝐨𝐬
-✅𝐌𝐞𝐧𝐮 𝐝𝐞 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐬
-✅𝐌𝐞𝐧𝐮 𝐝𝐞 𝐉𝐮𝐞𝐠𝐨𝐬
+✅ ownermenu
+✅ groupmenu
+✅ downloadmenu
+✅𝐌𝐞𝐧𝐮𝐉𝐮𝐞𝐠𝐨𝐬
 ✅𝐌𝐞𝐧𝐮 𝐝𝐞 𝐒𝐭𝐢𝐜𝐤𝐞𝐫𝐬
-✅𝐌𝐞𝐧𝐮 𝐝𝐞 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐚𝐜𝐢𝐨𝐧
-✅𝐌𝐞𝐧𝐮 𝐑𝐚𝐧𝐝𝐨𝐦
-✅𝐌𝐞𝐧𝐮 𝐝𝐞 𝐁𝐮𝐳𝐨𝐧𝐞𝐬
+✅ Programenu
+✅ Randommenu
+✅ Menubuzones
 ✅𝐌𝐞𝐧𝐮 𝐝𝐞 𝐄𝐟𝐞𝐜𝐭𝐨𝐬 𝐝𝐞 𝐕𝐨𝐳
 ✅𝐌𝐞𝐧𝐮 𝐝𝐞 𝐋𝐨𝐠𝐨𝐬
 ╚════════════════╝
@@ -47,7 +47,7 @@ let menu =`
 
 `.trim()
 let mentionedJid = [who]
-conn.send3ButtonImg(m.chat, pp, menu, '©𝐉𝐡𝐮𝐬𝐳ᙆ  ᷦ×͜×', '𝕄𝔼ℕ𝕌 𝕊𝕀𝕄ℙ𝕃𝔼 ', `#menusimple`, '𝕐𝕆𝕌𝕋𝕌𝔹𝔼', `#ytowner`, '𝕀ℕ𝕊𝕋𝔸𝔾ℝ𝔸𝕄', `#igofc`, m, false, { contextInfo: { mentionedJid }})   
+conn.send3ButtonImg(m.chat, pp, menu, '©𝐉𝐡𝐮𝐬𝐳ᙆ  ᷦ×͜×', '𝕄𝔼ℕ𝕌 𝕊𝕀𝕄ℙ𝕃𝔼 ', `#menusimple`, '', `#ytowner`, '', `#igofc`, m, false, { contextInfo: { mentionedJid }})   
 //await await await await await await conn.sendFile(m.chat, vn, 'mariana.mp3', null, m, true, {
 //type: 'audioMessage', 
 //ptt: true 
